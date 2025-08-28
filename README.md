@@ -1,6 +1,6 @@
 # Didital business card
 
-A simple and interactive digital business card built with React to showcase your profile, contact information, and social links in a modern and responsive design.
+A simple and interactive digital business card built with React to showcase profile, contact information, and social links in a modern and responsive design.
 
 🚀 Features
 
@@ -20,4 +20,4 @@ React – Component-based UI framework.
 
 Vite – Fast development and build tool.
 
-CSS Modules / Tailwind (optional) – For styling.
+CSS Modules – For styling.
