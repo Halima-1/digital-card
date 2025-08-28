@@ -1,76 +1,7 @@
-/* :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.card {
+  width: 400px;
+  margin: auto;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */
-
-/* main {
-  width: 70%;
-  margin: auto !important;
-} */
 
 .image,
 .bio,
@@ -85,23 +16,62 @@ button:focus-visible {
   align-content: center;
 }
 
-b,
+.name {
+  width: 90%;
+  margin: 0 auto !important;
+  /* display: block; */
+}
+
+.name b,
+.name p {
+  width: 100%;
+  margin: auto !important;
+}
+
+.link {
+  width: 90%;
+  margin: 0 auto !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.email {
+  background-color: rgb(236, 243, 243);
+  padding: 3px 6px;
+  text-decoration: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin: 0 10px;
+  width: 45%;
+  color: navy;
+  text-align: center;
+
+}
+
+.linkedin {
+  margin: 0 10px;
+
+  background-color: rgb(7, 124, 133);
+  border-radius: 6px;
+  width: 45%;
+  text-align: center;
+  text-decoration: none;
+  padding: 3px 6px;
+  color: white;
+}
+
+/* b,
 p {
   width: 100%;
   line-height: 25px;
   margin: 0 auto !important;
   text-align: justify;
-}
+} */
 
-.info b,
-.info p {
-  width: 70%;
-  margin: auto !important;
-}
 
 img {
   width: 100%;
-  height: 180px;
+  height: 200px;
   object-position: center;
   object-fit: fill;
 }
@@ -118,4 +88,5 @@ img {
 .social a {
   /* margin-right: 15px; */
   text-decoration: none;
+  margin: 0 10px;
 }

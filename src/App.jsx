@@ -9,11 +9,13 @@ function App() {
 
   return (
     <>
+          <div className="card">
           <Image/>
 
-          <Info/>
-      <Bio/>
-      <Social/>
+<Info/>
+<Bio/>
+<Social/>
+          </div>
     </>
   )
 }
